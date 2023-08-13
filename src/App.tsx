@@ -22,6 +22,13 @@ function App() {
         </a>
       </header>
       <p>Count: {count}</p>
+      <button
+        id="btn"
+        data-testid="btn"
+        onClick={() => setCount(count + 1)}
+      >
+        Click
+      </button>
     </div>
   );
 }
